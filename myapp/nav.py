@@ -2,9 +2,9 @@ from flask_nav import Nav
 from flask_nav.elements import Navbar, View, Subgroup
 
 
-def create_nav(app):
-    nav = Nav()
-    nav.init_app(app)
+
+nav = Nav()
+
 
     @nav.navigation()
     def menu_navbar():
